@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar color="primary" #navbar>
+    <ion-title>{{ attraction.title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <img style="padding: 0; margin: 0;" src="{{ attraction.image }}" />
+  <div id="afterImg" padding>
+    <ion-row>
+      <ion-col col-6 padding-top text-center align-self-end>
+        <ionic3-star-rating
+          activeIcon="ios-star"
+          defaultIcon="ios-star-outline"
+          activeColor="red"
+          defaultColor="#f4f4f4"
+          readonly="false"
+          [rating]="attraction.userRating"
+        >
+        </ionic3-star-rating>
+        <p>Please leave a rating</p>
+      </ion-col>
+      <ion-col padding-top col-6 text-center id="top-border">
+        <ion-icon
+          name="{{ scheduleIcon }}"
+          size="large"
+          class="my-icon-alt"
+          (click)="addToSchedule(attraction)"
+        ></ion-icon>
+
+        <p>Add to schedule</p>
+      </ion-col>
+      <ion-item class="my-line"></ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4 text-center>
+        <ion-icon name="time" class="my-icon-alt"></ion-icon>
+        <p text-center>{{ attraction.openingHours }}</p>
+      </ion-col>
+      <ion-col col-4 text-center>
+        <ion-icon name="stopwatch" class="my-icon-alt"></ion-icon>
+        <p>{{ attraction.time }}</p>
+      </ion-col>
+      <ion-col col-4 text-center>
+        <ion-icon name="cash" class="my-icon-alt"></ion-icon>
+        <p>{{ attraction.price }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-card>
+      <ion-card-content>
+        <p>{{ attraction.longDescription }}</p>
+      </ion-card-content>
+    </ion-card>
+
+    <h4 padding>Directions</h4>
+    <ion-card>
+      <ion-card-content>
+        <ion-row>
+          <ion-col col-4 class="my-icon-col" text-center>
+            <div class="my-icon-div">
+              <ion-icon
+                name="walk"
+                class="my-icon"
+                (click)="launchNavigation()"
+              ></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col col-4>
+            <div class="my-icon-div">
+              <ion-icon
+                name="car"
+                class="my-icon"
+                (click)="launchNavigation()"
+              ></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col col-4>
+            <div class="my-icon-div">
+              <ion-icon
+                name="bus"
+                class="my-icon"
+                (click)="launchNavigation()"
+              ></ion-icon>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row text-center>
+          <ion-col col-4> <p>20 min</p> </ion-col>
+          <ion-col col-4> <p>~20$</p> </ion-col>
+          <ion-col col-4> <p>4$</p> </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+    <h3 padding-left>Comments</h3>
+    <a float-right padding-right (click)="addComment()">Add comment</a>
+
+    <ion-list>
+      <ion-item text-wrap *ngFor="let comment of comments">
+        <h2>{{ comment.user }}</h2>
+        <p>{{ comment.content }}</p>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

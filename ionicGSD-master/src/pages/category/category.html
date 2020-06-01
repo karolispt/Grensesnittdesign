@@ -1,0 +1,52 @@
+<!--
+  Generated template for the CategoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header xmlns:margin="http://www.w3.org/1999/xhtml" xmlns:margin="http://www.w3.org/1999/xhtml">
+  <ion-navbar color="primary">
+    <ion-title float-start>{{ pageTitle }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card
+    class="cards-bg social-cards"
+    *ngFor="let attraction of attractions"
+  >
+    <ion-item>
+      <h2>{{ attraction.title }}</h2>
+    </ion-item>
+
+    <img src="{{ attraction.image }}"
+      (click)="goToAttractionPage(this.attraction)"
+    />
+
+    <ion-card-content>
+      <p>{{ attraction.description }}</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col col-5 margin-left="20%">
+        <button
+          ion-button
+          icon-start
+          clear
+          small
+          (click)="goToAttractionPage(this.attraction)"
+        >
+          <ion-icon ios="ios-star" md="md-star"> </ion-icon>
+          {{ ((attraction.rating + attraction.userRating) / 2).toPrecision(2) }}
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>{{ attraction.comments.length }} Comments</div>
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center> </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

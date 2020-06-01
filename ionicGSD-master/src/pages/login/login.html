@@ -1,0 +1,30 @@
+
+  <ion-header>
+    <ion-navbar color="primary">
+      <ion-title>Profile</ion-title>
+
+    </ion-navbar>
+    <ion-toolbar>
+
+      <ion-title id="navbarStatus"></ion-title>
+
+    </ion-toolbar>
+
+
+  </ion-header>
+
+<ion-content padding>
+
+
+  <h4 id="loginStatus"></h4>
+  <p id="loginParagraph"></p>
+
+  <span id="login" style="display:none !important;">
+    <a ion-item (click)=logIn()>Log in</a>
+    <a ion-item (click)=createUser()>Create user</a>
+  </span>
+  <span id="logout" style="display:none !important;">
+      <a ion-item (click)=logOut()>Log out</a>
+  </span>
+
+</ion-content>

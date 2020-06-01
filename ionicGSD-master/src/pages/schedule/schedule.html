@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Schedule</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let attraction of schedule">
+      <ion-row>
+        <ion-col col-8>
+          Est. Time 2h
+        </ion-col>
+        <ion-col col-2>
+          <ion-icon name="cash"></ion-icon>
+        </ion-col>
+        <ion-col col-2>
+          <p>20$</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-8 style="overflow: hidden">
+          <h2>{{ attraction.title }}</h2>
+          <p>{{ attraction.description }}</p>
+        </ion-col>
+        <ion-col col-4 style="margin-bottom: 0; padding-bottom: 0">
+          <button ion-button clear (click)="goToAttractionPage(this.attraction)" >View</button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-row *ngIf="showDelete">
+      <ion-col text-center>
+        <button ion-button (click)="deleteSchedule()">Delete Schedule</button>
+      </ion-col>
+    </ion-row>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,22 @@
+{
+  "Food": {
+    "title": "Food",
+    "description": "The tastiest food Oslo have to offer",
+    "image": "https://i.kinja-img.com/gawker-media/image/upload/s--XjPNJ3d7--/c_scale,fl_progressive,q_80,w_1600/be9vyovcn2gqwod7kd16.jpg"
+  },
+  "Sightseeing": {
+    "title": "Sightseeing",
+    "description": "Beautiful and fun places to see",
+    "image": "https://ourwaytours.com/wp-content/uploads/Vigeland.jpg"
+  },
+  "Excitement": {
+    "title": "Excitement",
+    "description": "Beautiful and fun places to see",
+    "image": "https://dbstatic.no/65252098.jpg?imageId=65252098&x=0&y=0&cropw=100.00&croph=100.00&width=1024&height=576"
+  },
+  "Museum": {
+    "title": "Museums",
+    "description": "From ancient history to modern technology",
+    "image": "https://www.oslo.com/media/uploads/oslo.com/2017/06/MuseumOslo.jpg"
+  }
+}

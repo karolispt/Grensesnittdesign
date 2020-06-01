@@ -1,0 +1,30 @@
+page-home {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .my-image-text-div {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .card-title, .card-subtitle{
+    background-color: rgba(map_get($colors, secondary), 0.6);
+  }
+
+  .card-title {
+    font-size: 2.0em;
+    font-weight: bold;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    top: 52%;
+  }
+
+
+}

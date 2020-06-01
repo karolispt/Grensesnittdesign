@@ -1,0 +1,214 @@
+{
+  "Sightseeing": [
+    {
+      "title": "Holmenkollen",
+      "image": "https://www.visitoslo.com//PageFiles/2176/Holmenkollen_hopprenn_(C)oslo2022.jpg?t=ScaleDownToFill|1500x1500",
+      "description": "Another must visit tourist attraction after the Opera house in Oslo. Situated near the hill top, on a clear day it offers spectacular view of the whole city. The ride to this tower itself is great. Zip line services are on offer to increase the adrenaline rush.",
+      "longDescription": "The Ski Museum is shot into the mountain below the ski jump. The museum opened in 1923 and is the world's oldest museum specialized in skiing. Here you can experience 4000 years of exciting ski history through various exhibitions.",
+      "rating": 3.5,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "2 Hours",
+      "price": "35 $",
+      "openingHours": "10:00 - 18:00"
+    },
+    {
+      "title": "Opraen",
+      "image": "https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_536,q_65,w_971/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DDen-Norske-Opera_Ballett_1__c_VisitOSLO_Thomas-Johannessen_8977006.jpg%26dh%3D533%26dw%3D800%26cropX%3D0%26cropY%3D0%26cropH%3D2787%26cropW%3D4181%26t%3D4",
+      "description": "Oslo's Opera House is located right at the harbour, with an angled, white exterior that appears to rise from the water. It invites its visitors to climb its roof and enjoy panoramic views of Oslo and the fjord, all year round.",
+      "longDescription": "The Norwegian nature is free for everyone to walk in, and The Oslo Opera House, which opened in 2008, was built as an extension to this idea. Usually, you are likely to be arrested if you walk on rooftops. This new building in the very epicentre of the capital of Norway feels like the complete opposite of the usual “Please don’t touch” culture tourists are often met with worldwide and is truly a beautiful surface meant to be stepped on.",
+      "rating": 4.9,
+      "userRating": 4,
+      "comments": ["Test", "opraen", "test"],
+      "time": "1 Hours",
+      "price": "Free",
+      "openingHours": "10:00 - 16:00"
+    },
+    {
+      "title": "Vigelandsparken",
+      "image": "https://www.storbytur.no/oslo/bilder/vigelandsparken-506.jpg",
+      "description": "Sculpture park in the Frogner Park with more than 200 sculptures by Gustav Vigeland in bronze, granite and cast iron, including The Angry Boy (Sinnataggen in Norwegian), The Monolith and The Wheel of Life.",
+      "longDescription": "Sculpture park in the Frogner Park with more than 200 sculptures by Gustav Vigeland (1869–1943) in bronze, granite and cast iron, including The Angry Boy (Sinnataggen in Norwegian), The Monolith and The Wheel of Life. Vigeland was also responsible for the design and architectural outline of the park, which is one of Norway's top tourist attractions, with more than one million annual visitors.",
+      "rating": 4.7,
+      "userRating": 4,
+      "comments": ["lol", "megalol"],
+      "time": "2 Hours",
+      "price": "Free",
+      "openingHours": "06:00 - 20:00"
+    },
+    {
+      "title": "Slottet",
+      "image": "https://image.journalisten.no/113654.jpg?imageId=113654&width=480&height=274",
+      "description": "The Royal Palace is situated on a rise, the Bellevue, at one end of Oslo’s main thoroughfare, Karl Johans gate. The Royal Palace is one of the country’s most important buildings, and a concrete symbol of the course of Norwegian history since 1814.",
+      "longDescription": "It is where the daily work of the monarchy is conducted and where the King and Queen live. It is where the King presides over the Council of State, grants audiences and holds official dinners. Foreign heads of state who visit Oslo stay at the Palace. Most of the members of the Royal Court have their workplace here. The Royal Palace is open to the public during the summer season.",
+      "rating": 3.9,
+      "userRating": 3,
+      "comments": ["heipådeg", "nissefaen", "tomlikerpikk"],
+      "time": "2 Hours",
+      "price": "Free",
+      "openingHours": "10:00 - 16:00"
+    }
+  ],
+  "Food": [
+    {
+      "title": "Mathallen",
+      "image": "https://dbstatic.no/63190276.jpg?imageId=63190276&x=0&y=0&cropw=100.00&croph=100.00&width=1024&height=576",
+      "description": "Mathallen Oslo is inspired by the great European food courts. Here you can find specialty shops, cafés and great places to eat.",
+      "longDescription": "Mathallen Oslo is the place to go for everyone who appreciates high quality food and drink and something unique. We offer fish, meat, vegetables, baked goods, coffee – everything brought to us by the best suppliers and distributors of Norway, as well as some imported products. The atmosphere and our products reflects our passion for good food and beverages.",
+      "rating": 5.0,
+      "userRating": 2,
+      "comments": ["Test", "comments"],
+      "time": "waiting time: 15 min",
+      "price": "$",
+      "openingHours": "10:00 - 21:00"
+    },
+    {
+      "title": "Dovrehallen",
+      "image": "https://www.aftenposten.no/migration_catalog/article6873587.ece/ALTERNATES/w2048c169/26042010203544.jpg?updated=280420101026",
+      "description": "If you want to keep an eye on your pocket and still want to have authentic Norwegian food in Oslo, look no further. However, they don't serve any alcoholic beverage.",
+      "longDescription": "traditional Norwegian food & beer, affordable prices. Informal place with many regular guests and a friendly atmosphere. High-quality home-made food. Lutefisk before Christmas. Wednesday to Saturday: Dance evenings with live music.",
+      "rating": 3.8,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "waiting time: 10 min",
+      "price": "$$",
+      "openingHours": "10:00 - 20:00"
+    },
+    {
+      "title": "Maaemo",
+      "image": "https://osloby-sulten-dev.s3-eu-west-1.amazonaws.com/spots/bjorvika-maaemo/e613e561-d21d-4f60-9ba6-79b374682df5/w2048c169.jpg",
+      "description": "Maaemo – an old Norse word meaning «Mother Earth» – is focused on creating a narrative around the clean, bright flavours of Norway.Maaemo is Oslo’s ground-breaking three Michelin starred restaurant.",
+      "longDescription": "Maaemo builds around its local produce driven cuisine with a focus on reflecting the changing seasons and the raw nature of Norway. The restaurant exclusively serves a playful tasting menu that is a pageant of dishes such as Norwegian langoustines with pine; mackerel with ramson; and Røros butter ice cream with brown butter caramel.",
+      "rating": 5.0,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "Reservation",
+      "price": "$$$$",
+      "openingHours": "14:00 - 23:30"
+    },
+    {
+      "title": "Restaurant Finstua",
+      "image": "https://dbstatic.no/68590830.jpg?imageId=68590830&width=1024&height=615",
+      "description": "Restaurant, a café and private dining facilities at the top of Holmenkollen, with panoramic views of Oslo and the Oslo Fjord. The oldest part of the building is from 1891, and the restaurant's culinary traditions go back to the late 1800s.",
+      "longDescription": "is an à la carte restaurant with historic flare and spectacular views of the Oslo Fjord. The kitchen uses only the best Norwegian ingredients, preparing them with classic techniques to create combinations of traditional and modern cuisine. Table bookings are recommended. s the perfect place to go after a refreshing hike or a busy day at work. The café offers warm and cold dishes from self-service counters.",
+      "rating": 5.0,
+      "userRating": 5,
+      "comments": ["Test", "comments"],
+      "time": "waiting time: 30 min",
+      "price": "$$$",
+      "openingHours": "10:00 - 22:00"
+    }
+  ],
+  "Excitement": [
+    {
+      "title": "Tusenfryd",
+      "image": "https://media.newmindmedia.com/TellUs/image/?file=50FB56EF216AF44BE0DD8155218318736E696C0A.jpg&dh=534&dw=800",
+      "description": "Norway's largest amusement park, with more than 30 fun attractions, great games, shops and places to eat.The park features attractions for all ages, including lots of rollercoasters, carousels, a log ride and much more.",
+      "longDescription": "Norway's largest amusement park, with more than 30 fun attractions, great games, shops and places to eat.The park features attractions for all ages, including lots of rollercoasters, carousels, a log ride and much more. Barnas Fryd and Frydskogen are packed with rides and activities for small kids. In summer you can enjoy BadeFryd, a water park with a swimming pool, a swimming river and a huge waterslide.",
+      "rating": 5.0,
+      "userRating": 4.6,
+      "comments": ["Test", "comments"],
+      "time": "2-6 Hours",
+      "price": "40 $",
+      "openingHours": "10:00 - 22:00"
+    },
+    {
+      "title": "Kollensvevet Zipline",
+      "image": "https://static.truestory.no/media/1008/proev-kollensvevet-7.jpg",
+      "description": "Zip down the world-famous Holmenkollen Ski Jump, all the way to the bottom of the hill!",
+      "longDescription": "Kollensvevet zipline is 361 metres of pure adrenaline, and you will get an unforgettable view of Oslo as you sail down from the city's famous landmark. The elevation drop is 107,5 metres. Kollensvevet is open to the public in the spring, summer and autumn. Open for pre-booked groups outside of regular opening hours. The ticket includes entry to the Ski Museum.",
+      "rating": 4.6,
+      "userRating": 5,
+      "comments": ["Test", "comments"],
+      "time": "1 Hours",
+      "price": "37 $",
+      "openingHours": "10:00 - 17:00"
+    },
+    {
+      "title": "Klatring i kolsåstoppen",
+      "image": "https://cdn.norsk-klatring.no/var/friflyt/storage/images/norsk-klatring.no/klatreskolen/fra-fem-til-seks/3029830-1-nor-NO/Fra-fem-til-seks_crop_1120.jpg",
+      "description": "Kolsåstoppen is a well-known profile of residents in Asker and Bærum. It is one of the biggest climbing fields in the Oslo area, but the top is also suitable for beautiful walks.",
+      "longDescription": "Kolsåstoppen consisting of two peaks, Nordre Kolsåsbanen which is 379 m and Southern Kolsåsbanen which is 342 m. Between the peaks lies the idyllic small Seats Ponds. Once you have arrived at the top you are rewarded with a breathtaking panoramic view over Oslo, Bærum and Oslo Fjord. On top there is a great anleding to take a good break. Parts of Kolsåstoppen located within Kolsåstoppen nature reserve belonging Kolsås / Dælivannet conservation area.",
+      "rating": 4.9,
+      "userRating": 3,
+      "comments": ["Test", "comments"],
+      "time": "2 Hours",
+      "price": "60 $",
+      "openingHours": "10:00 - 18:00"
+    },
+    {
+      "title": "RIB Oslo",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/82/06/ad/rib-oslo-safari-adventures.jpg",
+      "description": "Everything from sea rafting, trips, expeditions, seaside adventures, fjord experiences, fishing, rafting, the press, security boat, film footage and joy.",
+      "longDescription": "You get to experience fast-paced stages of 50 knots, 50 centimeters above the water surface. Everything from delicious hover in the air to calm parties through the great island groups and a stunning archipelago. We ride with spices up the charming stories and coastal culture. RIB and sailing with RIB Oslo fits all adults with normal physical health regardless of age and gender. We adapt speed and challenge after their desire. You'll be glad that you have been on tour and not just glad that you survived!",
+      "rating": 4.2,
+      "userRating": 5,
+      "comments": ["Test", "comments"],
+      "time": "3 Hours",
+      "price": "95 $",
+      "openingHours": "08:00 - 21:00"
+    }
+  ],
+  "Museums": [
+    {
+      "title": "Oscarsborg festning",
+      "image": "https://smp.vgc.no/v2/images/ff6b1c77-52bc-40e5-bff3-fe0b199fe422?fit=crop&h=649&w=988&s=2436c416bb27e17828c5c60301f00f6a672c3b54",
+      "description": "Oscarsborg Fortress is situated on the Oslofjord and has had the important function of defending the seaward approach to the capital.",
+      "longDescription": "Oscarsborg Fortress has a unique place in Norwegian history because it was the fortress's guns that sank the German flagship Blücher when Norway was attacked on 9 April 1940. The delay this caused made it possible for the Norwegian government to evacuate some important people in Oslo to safety. The King, the Parliament and the Government were thereby able to lead the resistance to the occupation.",
+      "rating": 4.6,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "3 Hours",
+      "price": "33 $",
+      "openingHours": "10:00 - 20:00"
+    },
+    {
+      "title": "Nasjonalgalleriet",
+      "image": "http://resources.mynewsdesk.com/image/upload/c_limit,dpr_2.625,f_auto,h_700,q_auto,w_360/waa7vq8mqhahmp7apbkt.jpg",
+      "description": "The Scream, Madonna, The Sick Child, and The Dance of Life are but some of the highlights of the museum’s ample collection of works by Edvard Munch.",
+      "longDescription": "Important works by other leading Norwegian artists, such as J.C. Dahl and Thomas Fearnley, are also presented. Other highlights include Tidemand and Gude’s national-romantic masterpiece Bridal Procession on the Hardangerfjord as well as the perhaps most important work of Norwegian neo-romanticism, Harald Sohlberg’s Winter Night in the Mountains. Christian Krohg is well represented in the exhibition as well, with key works such as the poignant Albertine to See the Police Surgeon.",
+      "rating": 4.4,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "2 Hours",
+      "price": "25 $",
+      "openingHours": "10:00 - 21:00"
+    },
+    {
+      "title": "Munchmuseet",
+      "image": "http://www.kunstkritikk.no/wp-content/uploads/2017/01/JornMunch-06s.jpg",
+      "description": "Edvard Munch was one of Modernism's most significant artists. Munch was part of the Symbolist movement in the 1890s, and a pioneer of expressionist art from the beginning of the 1900s onward.",
+      "longDescription": "Edvard Munch was one of Modernism's most significant artists. He was active throughout more than sixty years; from the time he made his debut in the 1880s, right up to his death in 1944. Munch was part of the Symbolist movement in the 1890s, and a pioneer of expressionist art from the beginning of the 1900s onward. His tenacious experimentation within painting, graphic art, drawing, sculpture, photo and film has given him a unique position in Norwegian as well as international art history. ",
+      "rating": 4.0,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "2 Hours",
+      "price": "40 $",
+      "openingHours": "10:00 - 21:00"
+    },
+    {
+      "title": "Nobels fredssenter",
+      "image": "https://static1.squarespace.com/static/5283c6b4e4b02d47ac471135/t/5ba4a32641920219a41d0a4a/1537516338483/41706551_465064627345883_4311582565963137024_n.jpg",
+      "description": "The Nobel Peace Center is the museum about  the Nobel Peace Prize. We present the Peace Prize laureates and their work, and tell the story of Alfred Nobel and the Peace Prize.",
+      "longDescription": "The Center acts as an arena for debate about important social issues. Through permanent and temporary exhibitions, guided tours, school programs and various events and family activities, we wish to foster reflection and engagement on topics related to war, peace and conflict resolution. The Nobel Peace Center has achieved international recognition for the use of documentary photography.",
+      "rating": 3.5,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "1 Hours",
+      "price": "15 $",
+      "openingHours": "10:00 - 21:00"
+    },
+    {
+      "title": "Teknisk museum",
+      "image": "https://www.ecsite.eu/sites/default/files/14_208467_mx1_low.jpg",
+      "description": "Dive into exciting exhibitions on Norwegian medicine history, oil and gas production and music machines",
+      "longDescription": "Dive into exciting exhibitions on Norwegian medicine history, oil and gas production and music machines, get an energy boost in the hydroelectric power exhibition, have a nostalgic flashback in our transport exhibitions, join in on our entertaining weekend activities, or find out more about the fascinating Norwegian history of industry.",
+      "rating": 4.2,
+      "userRating": 4,
+      "comments": ["Test", "comments"],
+      "time": "3 Hours",
+      "price": "38 $",
+      "openingHours": "10:00 - 20:00"
+    }
+  ]
+}

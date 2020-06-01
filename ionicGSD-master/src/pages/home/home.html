@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title float-start>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card
+    class="my-category"
+    *ngFor="let category of categories"
+    (click)="goToCategoryPage(category.title)"
+  >
+    <img src="{{category.image}}" />
+    <div class="my-image-text-div">
+      <div class="card-title" id="yo">{{ category.title }}</div>
+      <div class="card-subtitle">{{ category.description }}</div>
+    </div>
+  </ion-card>
+</ion-content>
